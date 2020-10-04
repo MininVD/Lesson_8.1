@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('../fonts/FuturaPT-Book.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+ol li,
+ul li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	font-size: 14px;
+	line-height: 1;
+}
+/* -------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.section{
+	background: #fff url("../img/bg.png") 75% 0% no-repeat;
+	min-height: 645px;
+}
+.container {
+	max-width: 1111px;
+	margin: 0 auto;
+}
+.header {
+	padding: 26px 0px 0px 0px;
+	margin: 0px 0px 125px 0px;
+}
+.header-top {
+	display: inline-block;
+}
+.header-logo {
+	display: inline-block;
+	margin: 0px 136px 0px 0px;
+}
+
+.header-menu {
+	display: inline-block;
+}
+
+.item-link {
+	font-family: 'Futura PT Book';
+	display: inline-block;
+	font-size: 16px;
+	line-height: 21px;
+	margin: 0px 40px 0px 0px;
+}
+.item-link:last-child {
+	margin: 0px 0px 0px 0px;
+}
+.link {
+	color: #00293F;
+}
+.link:hover{
+	color:#708251;
+}
+
+.header-button {
+	display: inline-block;
+	margin: 0 0 0 70px;
+}
+.button {
+	display: inline-block;
+	background-color: #70c851;
+	padding: 15px 31px;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 19px;
+	font-family: 'Poppins';
+	font-weight: medium;
+}
+.button:hover{
+	display: inline-block;
+	background-color:#708251;
+}
+.button span::after {
+	content: "";
+	background: url("../img/arrow.png") 0 0 no-repeat;
+	width: 15px;
+	height: 10px;
+	display: inline-block;
+	margin: 0px 0px 0px 10px;
+}
+
+.main {
+}
+.main-title {
+	font-family: 'Poppins';
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 60px;
+	color: #182C51;
+	margin: 0px 0px 33px 0px;
+}
+.main-text {
+	font-family: 'Poppins';
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 60px;
+	color: #182C51;
+	margin: 0px 0px 60px 0px;
+}
+.main-margin{
+	margin: 0px 0px 60px 0px;
+}
+.footer-title {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 28px;
+	line-height: 42px;
+	color: #00293F;
+}
+.footer-text {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5A5A5A;
+	display: inline-block;
+}
+.footer-item {
+	display: inline-block;
+}
+.footer-link {
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: #182C51;
+	margin: 0px 0px 46px 130px;
+}
+.footer-link span::before {
+	content: "";
+	display: inline-block;	
+	background: #70c851;
+	width: 11px;
+	height: 11px;
+	margin: 0 9px 0 0;
+}
